@@ -7,11 +7,11 @@ baseline: spec
 				spec
 					repository: 'github://YeesterPlus/SqueakUtils:master';
 					loads: #('winffi')];
-			project: 'OSProcess' with: [
+			"project: 'OSProcess' with: [
 				spec
 					className: 'ConfigurationOfOSProcess';
 					repository: 'https://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
-					versionString: #'stable'];
+					versionString: #'stable'];"
 			package: 'JSON' with: [spec repository: 'https://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/JSON'];
 			package: 'MagicMouse-Core' with: [spec requires: #('Cmfcmf' 'OSProcess' 'JSON')];
 			package: 'MagicMouse-Tests' with: [spec requires: #('MagicMouse-Core')].
