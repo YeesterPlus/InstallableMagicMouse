@@ -10,7 +10,7 @@ baseline: spec
 			project: 'OSProcess' with: [
 				spec
 					className: 'ConfigurationOfOSProcess';
-					repository: 'http://www.squeaksource.com/MetacelloRepository';
+					repository: 'https://squeaksource.blueplane.jp/MetacelloRepository';
 					versionString: #'stable'];
 			package: 'JSON' with: [spec repository: 'http://www.squeaksource.com/JSON'];
 			package: 'MagicMouse-Core' with: [spec requires: #('Cmfcmf' 'OSProcess' 'JSON')];
