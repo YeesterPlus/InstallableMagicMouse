@@ -5,7 +5,7 @@ baseline: spec
 		spec
 			baseline: 'Cmfcmf' with: [
 				spec
-					repository: 'github://cmfcmf/SqueakUtils:master';
+					repository: 'github://YeesterPlus/SqueakUtils:master';
 					loads: #('winffi')];
 			project: 'OSProcess' with: [
 				spec
